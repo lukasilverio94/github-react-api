@@ -37,7 +37,7 @@ function App() {
       setIsLoading(false);
     }
   };
-  // Fetch data from endpoint
+  // When component mounts, show default user
   useEffect(() => {
     handleSearch(defaultUser);
   }, []);

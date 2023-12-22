@@ -49,8 +49,8 @@ export default function UserInfo({ userData, repos }) {
               <h2 className="mb-3">Public Repositories: </h2>
               <ul className="list-group">
                 {repos.map((repo) => (
-                  <li key={repo.id} className="list-group-item">
-                    <h6>
+                  <li key={repo.id} className="list-group-item ">
+                    <h6 className="mt-2">
                       Repository name:{" "}
                       <span className="text-primary">{repo.name}</span>
                     </h6>
